@@ -86,3 +86,19 @@ p{
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 500px) {
+    .contanier {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        
+    }
+    .bottom{
+        margin: 20px 0 30px 50px
+    }
+    .attribution{
+        margin-bottom: 20px;
+    }
+    
+}
